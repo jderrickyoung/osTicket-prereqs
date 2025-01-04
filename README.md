@@ -90,36 +90,68 @@ For **osTicket** to work, you need to install a web server (IIS), PHP, and MySQL
 
 1. **Download Software**  
    - Extract the contents of the <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">**osTicket folder**</a>  and store it on your desktop for easy access.
-
+</p>
+<img src="https://i.imgur.com/Kk6hSSB.png"/>
+</p>
 2. **Enable IIS (Internet Information Services)**  
    - Open the **Control Panel** from the Start menu.
    - Navigate to **Programs** > **Turn Windows features on or off**.
    - Select **Internet Information Services (IIS)**.
    - In the drop-down menu, select **World Wide Web Services > Application Development Features** and enable **CGI**.
-
+</p>
+<img src="https://i.imgur.com/aZe8wbF.png"/>
+</p>
 3. **Install PHP**  
    - From the **osTicket folder** on your desktop, install the **PHP Manager** and **Rewrite Module**.
-
+</p>
+<img src="https://i.imgur.com/VSkLwxE.png"/>
+</p>
+</p>
+<img src="https://i.imgur.com/qdpPktY.png"/>
+</p>
 4. **Install PHP**  
    - Navigate to **C:\** and create a new folder named **PHP**.
    - Extract the **PHP 7.3.8** files from the **osTicket folder** and copy them to the **PHP** folder.
-
+</p>
+<img src="https://i.imgur.com/gkygVZm.png"/>
+</p>
+</p>
+<img src="https://i.imgur.com/zcDChZt.png"/>
+</p>
 5. **Install VC_redist**  
    - Run the **VC_redist** installer from the **osTicket folder**.
-
+</p>
+<img src="https://i.imgur.com/5XQZ7aG.png"/>
+</p>
 6. **Install MySQL**  
+</p>
+<img src="https://i.imgur.com/aK7G1N6.png"/>
+</p>
    - Run the **MySQL installer** from the **osTicket folder**.
    - Select **Typical Setup** and check **Launch Configuration Wizard** after installation.
    - In the **Configuration Wizard**:
      - Select **Standard Configuration**.
      - Enable **Install as Windows Service**.
      - Create a **root password** (make sure to save it securely).
-
+</p>
+<img src="https://i.imgur.com/HmeHV9N.png"/>
+</p>
 7. **Configure IIS for PHP**  
    - From the Start menu, right-click **IIS** and select **Run as Administrator**.
+ </p>
+<img src="https://i.imgur.com/j3rUUFS.png"/>
+</p>
    - Register PHP by opening **PHP Manager** and selecting **Register new PHP version**. Browse to the **PHP folder** on the C: drive and select **php-cgi**.
-   - Reload IIS by clicking **Stop** and then **Start** the server.
-
+</p>
+<img src="https://i.imgur.com/iey1EEu.png"/>
+</p>
+</p>
+<img src="https://i.imgur.com/wvzW1TH.png"/>
+</p>
+- Reload IIS by clicking **Stop** and then **Start** the server.
+</p>
+<img src="https://i.imgur.com/7rsxRVc.png"/>
+</p>
 ---
 
 ### Step 4: Install osTicket v1.15.8
@@ -180,8 +212,7 @@ For **osTicket** to work, you need to install a web server (IIS), PHP, and MySQL
 You have successfully installed **osTicket Help Desk Software**! 🎉
 
 ---
-
-Let me know if you'd like further refinements or more details on any of the steps!
+</p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
