@@ -158,9 +158,14 @@ For **osTicket** to work, you need to install a web server (IIS), PHP, and MySQL
 
 1. **Copy osTicket Files**  
    - From the **osTicket folder** on your desktop, extract the **osTicket-Installation-Files** and copy the **upload** folder to `C:\inetpub\wwwroot`.
-
+</p>
+<img src="https://i.imgur.com/MttVvja.png"/>
+</p>
 2. **Rename the Upload Folder**  
    - Rename the **upload** folder to **osTicket**.
+</p>
+<img src="https://i.imgur.com/QS7Qtco.png"/>
+</p>
 
 3. **Reload IIS**  
    - Stop and restart the server in IIS Manager.
@@ -168,35 +173,57 @@ For **osTicket** to work, you need to install a web server (IIS), PHP, and MySQL
 4. **Access the osTicket Installer**  
    - In IIS Manager, go to **Sites > Default Web Site > osTicket**.
    - Click **Browse *:80** in the right column to launch the osTicket installer in your web browser.
-
+</p>
+<img src="https://i.imgur.com/97Jmwnw.png"/>
+</p>
+</p>
+<img src="https://i.imgur.com/GxpT0Vs.png"/>
+</p>
 5. **Enable Required PHP Extensions**  
    - Go back to **IIS Manager > Sites > Default Web Site > osTicket**.
+</p>
+<img src="https://i.imgur.com/mVNW0iq.png"/>
+</p>   
    - Double-click **PHP Manager** and enable the following extensions:
      - `php_imap.dll`
      - `php_intl.dll`
      - `php_opcache.dll`
-   
+</p>
+<img src="https://i.imgur.com/vPoQcNK.png"/>
+</p>    
 6. **Refresh the Web Browser**  
    - osTicket should now appear in the browser.
-
+</p>
+<img src="https://i.imgur.com/ctlhvDL.png"/>
+</p>
 7. **Rename the Configuration File**  
    - Navigate to `C:\inetpub\wwwroot\osTicket\include` and rename **ost-sampleconfig.php** to **ost-config.php**.
-
+</p>
+<img src="https://i.imgur.com/G20nWTS.png"/>
+</p>
 8. **Set File Permissions**  
    - Right-click **ost-config.php**, go to **Properties > Security > Advanced**.
    - Disable inheritance and remove inherited permissions.
    - Add a new permission for **Everyone** (or the appropriate users).
-
+</p>
+<img src="https://i.imgur.com/aqCDqtQ.png"/>
+</p>
 9. **Continue osTicket Setup**  
    - Go back to the osTicket installer in the web browser and complete the setup:
      - Enter the **Helpdesk Name**, **Support Email**, and **Admin Username** and **Password**.
-
+</p>
+<img src="https://i.imgur.com/Gdm512b.png"/>
+</p>
 ---
 
 ### Step 5: Finalize the Installation
 
 1. **Install HeidiSQL**  
    - From the **osTicket folder** on your desktop, install **HeidiSQL**.
+</p>
+<img src="https://i.imgur.com/H592mav.png"/>
+</p>
+<p>
 
 2. **Set Up Database Connection**  
    - Open HeidiSQL and create a new session using the **root password** from Step 3.
@@ -211,9 +238,8 @@ For **osTicket** to work, you need to install a web server (IIS), PHP, and MySQL
 
 You have successfully installed **osTicket Help Desk Software**! 🎉
 
----
 </p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1Spx6nv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
