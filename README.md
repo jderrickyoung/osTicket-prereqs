@@ -6,7 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -31,17 +30,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<br />
-
-
-<p>
-
-<p>
-</p>
-<br />
-
-
----
 
 ### Step 1: Create a New VM
 
