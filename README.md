@@ -219,7 +219,9 @@ For **osTicket** to work, you need to install a web server (IIS), PHP, and MySQL
 
 3. **Complete Database Setup**  
    - Continue the setup in the web browser and click **Install**.
-
+</p>
+<img src="https://i.imgur.com/TzAYPCH.png"/>
+</p>
 ---
 
 ### Congratulations!
